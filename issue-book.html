@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Book</title>
+    <link rel="stylesheet" href="issue-book.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>📕 Issue Book</h1>
+            <a href="dashboard.html" class="back-btn">← Dashboard</a>
+        </div>
+
+        <div class="form-section">
+
+            <h2>Issue New Book</h2>
+
+            <form>
+
+                <input type="text" placeholder="Student ID" required>
+
+                <input type="text" placeholder="Student Name" required>
+
+                <select required>
+                    <option>Select Book</option>
+                    <option>Java Programming</option>
+                    <option>Data Structures</option>
+                    <option>Operating Systems</option>
+                </select>
+
+                <input type="date" required>
+
+                <button type="submit">Issue Book</button>
+
+            </form>
+
+        </div>
+
+        <div class="table-section">
+
+            <h2>Issued Books</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Issue ID</th>
+                        <th>Student ID</th>
+                        <th>Student Name</th>
+                        <th>Book</th>
+                        <th>Issue Date</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>101</td>
+                        <td>Roshini</td>
+                        <td>Java Programming</td>
+                        <td>2026-06-25</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

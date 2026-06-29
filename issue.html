@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Issue Books</title>
+    <link rel="stylesheet" href="issue.css">
+</head>
+<body>
+
+<div class="container">
+    <a href="home.html" class="back-btn">
+            ← Home
+    </a>
+
+    <h1>📕 Issue Book</h1>
+
+    <form onsubmit="issueBook(event)">
+
+        <input id="studentName"
+               type="text"
+               placeholder="Student Name"
+               required>
+
+        <input id="bookTitle"
+               type="text"
+               placeholder="Book Title"
+               required>
+
+        <button type="submit">
+            Issue Book
+        </button>
+
+    </form>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Student</th>
+                <th>Book</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="issueTableBody">
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<script src="issue.js"></script>
+
+</body>
+</html>
